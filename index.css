@@ -1,0 +1,121 @@
+@import "reset  .css";
+
+body {
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clicked {
+  color: #999999;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+.greetings {
+  border: none;
+  background-color: rgb(10, 10, 10);
+  color: #d4d4d4;
+  opacity: 0.7;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  width: 100px;
+}
+.showing {
+  display: flex;
+  color: #999999;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgImage {
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 1s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.toDoList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.weather {
+  color: #d4d4d4;
+  background-color: rgb(75, 75, 75);
+  opacity: 0.8;
+  padding: 5px 15px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  font-size: 20px;
+}
+.clock {
+  font-size: 70px;
+  color: rgb(36, 36, 36);
+  opacity: 0.7;
+}
+
+.input {
+  border: none;
+  background-color: rgb(10, 10, 10);
+  color: #d4d4d4;
+  opacity: 0.7;
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+.toDo {
+  background-color: rgb(10, 10, 10);
+  opacity: 0.8;
+  color: #d4d4d4;
+  padding: 10px 15px;
+  border-radius: 50px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.delBtn {
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  margin-left: 10px;
+  color: #d4d4d4;
+}
+* {
+  outline: none;
+}
+img {
+  width: 100%;
+  height: auto;
+}
