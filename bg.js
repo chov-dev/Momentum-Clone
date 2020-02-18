@@ -2,7 +2,7 @@ const body = document.querySelector("body");
 
 const IMG_NUMBER = 3;
 
-function handleLoadend() {
+function handleLoadend(image) {
   body.appendChild(image);
 }
 
@@ -10,7 +10,7 @@ function paintImage(imgNumber) {
   const image = new Image();
   image.src = `images/${imgNumber + 1}.jpg`;
   image.classList.add("bgImage");
-  image.addEventListener("loadend", handleLoadend);
+  image.addEventListener("loadend", handleLoadend(image));
 }
 
 function genRandom() {
