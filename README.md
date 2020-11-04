@@ -10,3 +10,5 @@
 * To Do List (Read/Delete)
 
 * Weather info notice
+
+* Random backgrounds (Three images)
