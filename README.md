@@ -1,14 +1,14 @@
-# Clone of Momentum (Chrome extension)
+# 📑 Clone of Momentum (Chrome extension)
 
 ***
 
 
-## | functions
+## | 💿 functions
 
-* User greeting (Saves username on Local Storage)
+* 👋 User greeting (Saves username on Local Storage)
 
-* To Do List (Read/Delete) (Saves list info on Local Storage)
+* 📜 To Do List (Read/Delete) (Saves list info on Local Storage)
 
-* Weather info notice
+* ⛅️ Weather info notice
 
-* Random backgrounds (Three images)
+* 🌄 Random backgrounds (Three images)
